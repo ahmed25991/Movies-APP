@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.etisilattask.movies.feature.splash.presentation.test.presentation-mergeDebugAndroidTestResources-1:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/c45058c642aeda7f7bf4e1b45dcd7ac7/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    }
+                }
+            ]
+        }
+    ]
+}

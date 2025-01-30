@@ -1,0 +1,7 @@
+int font lato_black 0x0
+int font poppins_bold 0x0
+int font poppins_medium 0x0
+int font poppins_regular 0x0
+int font poppins_semibold 0x0
+int raw loading 0x0
+int string unknown_error 0x0

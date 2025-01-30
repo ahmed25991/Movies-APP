@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.etisilattask.movies.common.data.remote.test.remote-mergeDebugAndroidTestResources-0:/values-sk/values-sk.xml",
+            "map": [
+                {
+                    "source": "/Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/509c47e74080f9d47e1c91d257010528/transformed/core-1.15.0/res/values-sk/values-sk.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,253,354,452,562,670,792",
+                        "endColumns": "95,101,100,97,109,107,121,100",
+                        "endOffsets": "146,248,349,447,557,665,787,888"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,19",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,253,354,452,562,670,1632",
+                        "endColumns": "95,101,100,97,109,107,121,100",
+                        "endOffsets": "146,248,349,447,557,665,787,1728"
+                    }
+                },
+                {
+                    "source": "/Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/dbb0e218bc65869475301cddfd4f16f9/transformed/ui-1.0.1/res/values-sk/values-sk.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,150,234,329,408,514,604,685,754,823,895",
+                        "endColumns": "94,83,94,78,105,89,80,68,68,71,67",
+                        "endOffsets": "145,229,324,403,509,599,680,749,818,890,958"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12,13,14,15,16,17,18,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "792,887,971,1066,1145,1251,1341,1422,1491,1560,1733",
+                        "endColumns": "94,83,94,78,105,89,80,68,68,71,67",
+                        "endOffsets": "882,966,1061,1140,1246,1336,1417,1486,1555,1627,1796"
+                    }
+                }
+            ]
+        }
+    ]
+}

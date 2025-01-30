@@ -1,0 +1,8 @@
+com.etisilattask.movies.common.presentation
+font lato_black
+font poppins_bold
+font poppins_medium
+font poppins_regular
+font poppins_semibold
+raw loading
+string unknown_error

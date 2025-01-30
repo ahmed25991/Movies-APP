@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.etisilattask.movies.common.data.remote.test.remote-mergeDebugAndroidTestResources-0:/values-as/values-as.xml",
+            "map": [
+                {
+                    "source": "/Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/dbb0e218bc65869475301cddfd4f16f9/transformed/ui-1.0.1/res/values-as/values-as.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,200,285,378,475,581,670,760,828,900,979,1045",
+                        "endColumns": "94,84,92,96,105,88,89,67,71,78,65,117",
+                        "endOffsets": "195,280,373,470,576,665,755,823,895,974,1040,1158"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12,13,14,15,16,17,18,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "855,950,1035,1128,1225,1331,1420,1510,1578,1650,1830,1896",
+                        "endColumns": "94,84,92,96,105,88,89,67,71,78,65,117",
+                        "endOffsets": "945,1030,1123,1220,1326,1415,1505,1573,1645,1724,1891,2009"
+                    }
+                },
+                {
+                    "source": "/Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/509c47e74080f9d47e1c91d257010528/transformed/core-1.15.0/res/values-as/values-as.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,156,259,367,472,576,676,805",
+                        "endColumns": "100,102,107,104,103,99,128,100",
+                        "endOffsets": "151,254,362,467,571,671,800,901"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,19",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,206,309,417,522,626,726,1729",
+                        "endColumns": "100,102,107,104,103,99,128,100",
+                        "endOffsets": "201,304,412,517,621,721,850,1825"
+                    }
+                }
+            ]
+        }
+    ]
+}

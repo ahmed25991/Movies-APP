@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="17">
+      <module name="DawarhaNextGen.app" target="21" />
+      <module name="DawarhaNextGen.common.data.remote" target="21" />
+      <module name="DawarhaNextGen.common.presentation" target="21" />
+      <module name="DawarhaNextGen.feature.authentication.data" target="21" />
+      <module name="DawarhaNextGen.feature.authentication.presentation" target="21" />
+      <module name="DawarhaNextGen.feature.mainScreens.presentation" target="21" />
+      <module name="DawarhaNextGen.feature.maps.data" target="21" />
+      <module name="DawarhaNextGen.feature.maps.presentation" target="21" />
+      <module name="DawarhaNextGen.feature.onBoarding.data" target="21" />
+      <module name="DawarhaNextGen.feature.onBoarding.presentation" target="21" />
+      <module name="DawarhaNextGen.feature.profile.data" target="21" />
+      <module name="DawarhaNextGen.feature.profile.presentation" target="21" />
+      <module name="DawarhaNextGen.feature.referral.data" target="21" />
+      <module name="DawarhaNextGen.feature.referral.presentation" target="21" />
+      <module name="DawarhaNextGen.feature.splash.data" target="21" />
+      <module name="DawarhaNextGen.feature.splash.presentation" target="21" />
+      <module name="DawarhaNextGen.feature.wallet.data" target="21" />
+      <module name="DawarhaNextGen.feature.wallet.presentation" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

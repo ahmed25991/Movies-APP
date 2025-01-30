@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.etisilattask.movies.common.presentation.test.presentation-mergeDebugAndroidTestResources-0:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/c45058c642aeda7f7bf4e1b45dcd7ac7/transformed/appcompat-1.6.1/res/values-watch-v21/values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

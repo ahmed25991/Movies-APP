@@ -1,0 +1,9 @@
+R_DEF: Internal format may change without notice
+local
+font lato_black
+font poppins_bold
+font poppins_medium
+font poppins_regular
+font poppins_semibold
+raw loading
+string unknown_error
