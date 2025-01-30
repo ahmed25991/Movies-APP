@@ -76,7 +76,7 @@ object NetworkModule {
     @Provides
     @Singleton
     fun provideRetrofit(client: OkHttpClient, moshi: Moshi): Retrofit = Retrofit.Builder()
-        .baseUrl("https://staging.dawarha.com/api/")
+        .baseUrl("")
         .client(client)
         .addConverterFactory(MoshiConverterFactory.create(moshi))
         .build()
