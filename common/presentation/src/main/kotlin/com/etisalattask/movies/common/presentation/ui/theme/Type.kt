@@ -1,4 +1,4 @@
-package com.etisalattask.movies.common.presentation.ui.theme
+package com.etisilattask.movies.common.presentation.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.runtime.Composable

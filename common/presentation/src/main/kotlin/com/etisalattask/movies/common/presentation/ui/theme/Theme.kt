@@ -14,6 +14,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
+import com.etisilattask.movies.common.presentation.ui.theme.Typography
 
 private val DarkColorScheme = darkColorScheme(
     primary = GreenLuminance500,
