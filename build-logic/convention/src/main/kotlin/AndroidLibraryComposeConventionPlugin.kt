@@ -27,7 +27,6 @@ class AndroidLibraryComposeConventionPlugin : Plugin<Project> {
                 implementation(library("ui.tooling.preview"))
                 implementation(library("material3"))
                 androidTestImplementation(platform(library("compose.bom")))
-                androidTestImplementation(library("ui.test.junit4"))
                 debugImplementation(library("ui.tooling"))
                 debugImplementation(library("ui.test.manifest"))
             }

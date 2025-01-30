@@ -1,5 +1,6 @@
 package com.etisalattask.movies.common.data.remote.di
 
+import android.content.Context
 import com.etisalattask.movies.common.data.remote.util.NetworkConstants.CLIENT_TIME_OUT
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
@@ -13,6 +14,12 @@ import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
 import java.util.concurrent.TimeUnit
 import javax.inject.Singleton
+import com.etisilattask.movies.common.data.remote.BuildConfig
+import dagger.hilt.android.qualifiers.ApplicationContext
+import okhttp3.Cache
+import okhttp3.Interceptor
+import java.io.File
+
 
 /**
  * This module provides the necessary dependencies for network operations,
@@ -23,6 +30,8 @@ import javax.inject.Singleton
 @InstallIn(SingletonComponent::class)
 object NetworkModule {
 
+    private const val CACHE_SIZE_MB = 10L * 1024 * 1024 // 100 MB
+    private const val CACHE_MAX_AGE = 60 // 50 minutes
 
 
     /**
@@ -36,12 +45,39 @@ object NetworkModule {
     @Singleton
     fun provideLoggingInterceptor(): HttpLoggingInterceptor =
         HttpLoggingInterceptor().apply {
-            level =
-                //if (BuildConfig.DEBUG)
+            level = if (BuildConfig.DEBUG)
         HttpLoggingInterceptor.Level.BODY
-            //else
-              //  HttpLoggingInterceptor.Level.NONE
+            else HttpLoggingInterceptor.Level.NONE
         }
+
+
+
+    @Provides
+    @Singleton
+    fun provideCache(@ApplicationContext context: Context): Cache {
+        val cacheDir = File(context.cacheDir, "http_cache")
+        return Cache(cacheDir, CACHE_SIZE_MB)
+    }
+
+    @Provides
+    @Singleton
+    fun provideCacheInterceptor() = Interceptor { chain ->
+        val response = chain.proceed(chain.request())
+        response.newBuilder()
+            .header("Cache-Control", "public, max-age=$CACHE_MAX_AGE")
+            .build()
+    }
+
+
+    @Provides
+    @Singleton
+    fun provideHeaderInterceptor() = Interceptor { chain ->
+        val response = chain.proceed(chain.request())
+        response.newBuilder()
+            .header("language", "en-US")
+            .header("Authorization", BuildConfig.ACCESS_TOKEN)
+            .build()
+    }
 
 
 
@@ -57,11 +93,17 @@ object NetworkModule {
     @Singleton
     fun provideOkHttpClient(
         loggingInterceptor: HttpLoggingInterceptor,
+        cache: Cache,
+        cacheInterceptor: Interceptor,
+        headerInterceptor: Interceptor,
     ): OkHttpClient = OkHttpClient.Builder()
         .connectTimeout(CLIENT_TIME_OUT, TimeUnit.SECONDS)
         .readTimeout(CLIENT_TIME_OUT, TimeUnit.SECONDS)
         .retryOnConnectionFailure(true)
+        .cache(cache)
         .addInterceptor(loggingInterceptor)
+        .addInterceptor(headerInterceptor)
+        .addNetworkInterceptor(cacheInterceptor) // Use network interceptor for caching
         .build()
 
 
@@ -76,7 +118,7 @@ object NetworkModule {
     @Provides
     @Singleton
     fun provideRetrofit(client: OkHttpClient, moshi: Moshi): Retrofit = Retrofit.Builder()
-        .baseUrl("")
+        .baseUrl(BuildConfig.BASE_URL)
         .client(client)
         .addConverterFactory(MoshiConverterFactory.create(moshi))
         .build()

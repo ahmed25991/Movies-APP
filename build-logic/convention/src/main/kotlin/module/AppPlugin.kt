@@ -16,16 +16,13 @@ class AppPlugin : Plugin<Project> {
                 apply("movies.android.application.compose")
                 apply("hilt")
             }
-
             dependencies {
+                //modules
                 implementation(project(":core"))
                 implementation(project(":common:domain"))
                 implementation(project(":common:presentation"))
-
-                implementation(project(":feature:splash:data"))
-                implementation(project(":feature:splash:domain"))
                 implementation(project(":feature:splash:presentation"))
-
+                //libraries
                 implementation(library("systemControlUi"))
                 implementation(library("navigation.compose"))
                 implementation(library("compose.constraint"))
@@ -37,10 +34,8 @@ class AppPlugin : Plugin<Project> {
                 implementation(library("ui.graphics"))
                 implementation(library("ui.tooling.preview"))
                 implementation(library("material3"))
-                androidTestImplementation(library("androidx.test.ext.junit"))
                 androidTestImplementation(library("espresso.core"))
                 androidTestImplementation(platform(library("compose.bom")))
-                androidTestImplementation(library("ui.test.junit4"))
                 androidTestImplementation(library("navigation.testing"))
                 androidTestImplementation(library("hilt.navigation"))
                 debugImplementation(library("ui.tooling"))

@@ -32,10 +32,6 @@
         android:extractNativeLibs="false" >
         <uses-library android:name="android.test.runner" />
 
-        <activity
-            android:name="androidx.compose.ui.tooling.PreviewActivity"
-            android:exported="true" />
-
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="com.etisilattask.movies.feature.splash.presentation.test.androidx-startup"
@@ -77,6 +73,9 @@
         </activity>
         <activity
             android:name="androidx.activity.ComponentActivity"
+            android:exported="true" />
+        <activity
+            android:name="androidx.compose.ui.tooling.PreviewActivity"
             android:exported="true" />
 
         <receiver

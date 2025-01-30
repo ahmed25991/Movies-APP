@@ -4,24 +4,7 @@
             "outputFile": "com.etisilattask.movies.common.data.remote.test.remote-mergeDebugAndroidTestResources-0:/values-zu/values-zu.xml",
             "map": [
                 {
-                    "source": "/Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/dbb0e218bc65869475301cddfd4f16f9/transformed/ui-1.0.1/res/values-zu/values-zu.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,200,282,387,469,575,668,751,819,887,963,1033",
-                        "endColumns": "94,81,104,81,105,92,82,67,67,75,69,123",
-                        "endOffsets": "195,277,382,464,570,663,746,814,882,958,1028,1152"
-                    },
-                    "to": {
-                        "startLines": "9,10,11,12,13,14,15,16,17,18,20,21",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "835,930,1012,1117,1199,1305,1398,1481,1549,1617,1794,1864",
-                        "endColumns": "94,81,104,81,105,92,82,67,67,75,69,123",
-                        "endOffsets": "925,1007,1112,1194,1300,1393,1476,1544,1612,1688,1859,1983"
-                    }
-                },
-                {
-                    "source": "/Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/509c47e74080f9d47e1c91d257010528/transformed/core-1.15.0/res/values-zu/values-zu.xml",
+                    "source": "/Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/8bb4698b5320a170a9a8f7463b7496ef/transformed/core-1.15.0/res/values-zu/values-zu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -35,6 +18,23 @@
                         "startOffsets": "105,203,307,406,509,615,722,1693",
                         "endColumns": "97,103,98,102,105,106,112,100",
                         "endOffsets": "198,302,401,504,610,717,830,1789"
+                    }
+                },
+                {
+                    "source": "/Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/5d00fc4060de7fe22f8bacb047b18632/transformed/ui-1.0.1/res/values-zu/values-zu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,200,282,387,469,575,668,751,819,887,963,1033",
+                        "endColumns": "94,81,104,81,105,92,82,67,67,75,69,123",
+                        "endOffsets": "195,277,382,464,570,663,746,814,882,958,1028,1152"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12,13,14,15,16,17,18,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "835,930,1012,1117,1199,1305,1398,1481,1549,1617,1794,1864",
+                        "endColumns": "94,81,104,81,105,92,82,67,67,75,69,123",
+                        "endOffsets": "925,1007,1112,1194,1300,1393,1476,1544,1612,1688,1859,1983"
                     }
                 }
             ]

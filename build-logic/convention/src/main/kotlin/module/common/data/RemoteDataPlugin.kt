@@ -19,22 +19,20 @@ class RemoteDataPlugin : Plugin<Project> {
             }
 
             dependencies {
+                //modules
                 implementation(project(":common:domain"))
                 implementation(project(":core"))
-
+                //libraries
                 implementation(library("core.ktx"))
                 implementation(library("kotlin.serialization"))
                 implementation(library("mockk"))
                 testImplementation(library("coroutines.test"))
-                testImplementation(library("junit"))
                 implementation(library("retrofit.converter"))
                 implementation(library("moshi.kotlin"))
                 implementation(library("retrofit"))
                 implementation(library("logging.interceptor"))
                 implementation(library("gson"))
                 implementation(library("converter.moshi"))
-                implementation(library("sharedpref"))
-
             }
         }
     }

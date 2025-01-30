@@ -29,9 +29,6 @@ gradlePlugin {
             id = "movies.android.application.compose"
             implementationClass = "AndroidApplicationComposeConventionPlugin"
         }
-
-
-
         register("androidLibrary") {
             id = "movies.android.library"
             implementationClass = "AndroidLibraryConventionPlugin"
@@ -43,10 +40,6 @@ gradlePlugin {
         register("hilt") {
             id = "hilt"
             implementationClass = "library.HiltPlugin"
-        }
-        register("room") {
-            id = "room"
-            implementationClass = "library.RoomPlugin"
         }
         register("appModule") {
             id = "app"
@@ -60,15 +53,10 @@ gradlePlugin {
             id = "common.data.remote"
             implementationClass = "module.common.data.RemoteDataPlugin"
         }
-
-
         register("commonDomainModule") {
             id = "common.domain"
             implementationClass = "module.common.DomainPlugin"
         }
-
-
-
         register("commonPresentationModule") {
             id = "common.presentation"
             implementationClass = "module.common.PresentationPlugin"
@@ -77,26 +65,9 @@ gradlePlugin {
             id = "feature"
             implementationClass = "module.FeaturePlugin"
         }
-        register("featureSplashDataModule") {
-            id = "feature.splash.data"
-            implementationClass = "module.feature.splash.DataPlugin"
-        }
-        register("featureSplashDomainModule") {
-            id = "feature.splash.domain"
-            implementationClass = "module.feature.splash.DomainPlugin"
-        }
         register("featureSplashPresentationModule") {
             id = "feature.splash.presentation"
             implementationClass = "module.feature.splash.PresentationPlugin"
         }
-
-
-
-
-
-
-
-
-
     }
 }

@@ -19,10 +19,11 @@ class DomainPlugin : Plugin<Project> {
             configureKotlinJvm()
 
             dependencies {
+                //modules
                 implementation(project(":core"))
+                //libraries
                 implementation(library("javax.inject"))
                 implementation(library("coroutines.test"))
-                implementation(library("junit"))
             }
         }
     }

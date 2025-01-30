@@ -15,8 +15,9 @@ class PresentationPlugin : Plugin<Project> {
             }
 
             dependencies {
+                //modules
                 implementation(project(":common:domain"))
-                implementation(project(":feature:splash:domain"))
+                //libraries
                 implementation(library("compose.constraint"))
             }
         }

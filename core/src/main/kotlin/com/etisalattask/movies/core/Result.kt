@@ -12,6 +12,5 @@ sealed class Result<T, E>(
 ) {
     class Success<T, E>(data: T?) : Result<T, E>(data)
     class Loading<T, E>(data: T? = null) : Result<T, E>(data)
-    class Error<T, E>(error: E) : Result<T, E>(error = error)
     class Fail<T, E>(errorCode: String? = null, message: String? = null) : Result<T, E>(errorCode = errorCode, message = message)
 }

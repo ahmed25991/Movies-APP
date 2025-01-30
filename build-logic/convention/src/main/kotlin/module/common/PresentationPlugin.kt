@@ -21,21 +21,19 @@ class PresentationPlugin : Plugin<Project> {
             }
 
             dependencies {
+                //modules
                 implementation(project(":core"))
                 implementation(project(":common:domain"))
-
+                //libraries
                 implementation(library("lifecycle.runtime.ktx"))
                 implementation(library("lifecycle.runtime.compose"))
                 implementation(library("hilt.navigation"))
                 implementation(library("navigation.common.ktx"))
                 implementation(library("gson"))
                 implementation(library("lottie"))
-                implementation(library("sdplib"))
                 implementation(library("compose.constraint"))
-                androidTestImplementation(library("androidx.test.ext.junit"))
                 androidTestImplementation(library("espresso.core"))
                 androidTestImplementation(platform(library("compose.bom")))
-                androidTestImplementation(library("ui.test.junit4"))
             }
 
 

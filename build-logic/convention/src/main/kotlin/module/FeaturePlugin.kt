@@ -21,17 +21,16 @@ class FeaturePlugin : Plugin<Project> {
             }
 
             dependencies {
+                //modules
                 implementation(project(":core"))
                 implementation(project(":common:presentation"))
-
-
+                //libraries
                 implementation(library("activity.compose"))
                 implementation(library("lifecycle.runtime.ktx"))
                 implementation(library("lifecycle.runtime.compose"))
                 implementation(library("navigation.compose"))
                 implementation(library("hilt.navigation"))
                 implementation(library("coil"))
-                androidTestImplementation(library("androidx.test.ext.junit"))
                 androidTestImplementation(library("espresso.core"))
             }
 

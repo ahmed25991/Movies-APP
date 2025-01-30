@@ -1,5 +1,5 @@
 com.etisilattask.movies.common.presentation
-font lato_black
+drawable ic_no_internet
 font poppins_bold
 font poppins_medium
 font poppins_regular
