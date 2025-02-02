@@ -1,5 +1,7 @@
 com.etisilattask.movies.common.presentation
 drawable ic_no_internet
+drawable ic_splash
+drawable splash_inset
 font poppins_bold
 font poppins_medium
 font poppins_regular

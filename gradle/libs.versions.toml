@@ -37,6 +37,8 @@ converterMoshi = "2.11.0"
 compose-constraint = "1.1.0"
 lottie = "6.6.0"
 systemControlUi = "0.34.0"
+splashApi = "1.0.1"
+
 
 [libraries]
 
@@ -86,6 +88,7 @@ converter-moshi = { module = "com.squareup.retrofit2:converter-moshi", version.r
 compose-constraint = { module = "androidx.constraintlayout:constraintlayout-compose" , version.ref = "compose-constraint"  }
 lottie = { module = "com.airbnb.android:lottie-compose" , version.ref = "lottie"  }
 systemControlUi = { module = "com.google.accompanist:accompanist-systemuicontroller" , version.ref = "systemControlUi"  }
+splashApi = { module = "androidx.core:core-splashscreen" , version.ref = "splashApi"  }
 
 [bundles]
 

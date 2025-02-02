@@ -3,186 +3,186 @@
 3    package="com.etisilattask.movies.common.presentation.test" >
 4
 5    <uses-sdk
-5-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15787078756010830579.xml:5:5-74
+5-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3742212271020872576.xml:5:5-74
 6        android:minSdkVersion="24"
-6-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15787078756010830579.xml:5:15-41
+6-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3742212271020872576.xml:5:15-41
 7        android:targetSdkVersion="24" />
-7-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15787078756010830579.xml:5:42-71
+7-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3742212271020872576.xml:5:42-71
 8
 9    <instrumentation
-9-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15787078756010830579.xml:11:5-15:98
+9-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3742212271020872576.xml:11:5-15:98
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15787078756010830579.xml:11:22-76
+10-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3742212271020872576.xml:11:22-76
 11        android:functionalTest="false"
-11-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15787078756010830579.xml:14:22-52
+11-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3742212271020872576.xml:14:22-52
 12        android:handleProfiling="false"
-12-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15787078756010830579.xml:13:22-53
+12-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3742212271020872576.xml:13:22-53
 13        android:label="Tests for com.etisilattask.movies.common.presentation.test"
-13-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15787078756010830579.xml:15:22-96
+13-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3742212271020872576.xml:15:22-96
 14        android:targetPackage="com.etisilattask.movies.common.presentation.test" />
-14-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15787078756010830579.xml:12:22-94
+14-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3742212271020872576.xml:12:22-94
 15
 16    <permission
-16-->[androidx.core:core:1.15.0] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/8bb4698b5320a170a9a8f7463b7496ef/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+16-->[androidx.core:core:1.15.0] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/a530c140fed5f0dcf41557cfa2555982/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
 17        android:name="com.etisilattask.movies.common.presentation.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-17-->[androidx.core:core:1.15.0] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/8bb4698b5320a170a9a8f7463b7496ef/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+17-->[androidx.core:core:1.15.0] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/a530c140fed5f0dcf41557cfa2555982/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
 18        android:protectionLevel="signature" />
-18-->[androidx.core:core:1.15.0] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/8bb4698b5320a170a9a8f7463b7496ef/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+18-->[androidx.core:core:1.15.0] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/a530c140fed5f0dcf41557cfa2555982/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
 19
 20    <uses-permission android:name="com.etisilattask.movies.common.presentation.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-20-->[androidx.core:core:1.15.0] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/8bb4698b5320a170a9a8f7463b7496ef/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
-20-->[androidx.core:core:1.15.0] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/8bb4698b5320a170a9a8f7463b7496ef/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+20-->[androidx.core:core:1.15.0] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/a530c140fed5f0dcf41557cfa2555982/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.15.0] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/a530c140fed5f0dcf41557cfa2555982/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
 21    <uses-permission android:name="android.permission.REORDER_TASKS" />
-21-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e8b9a33b6bd36628d07f6f4eef00573e/transformed/core-1.6.1/AndroidManifest.xml:24:5-72
-21-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e8b9a33b6bd36628d07f6f4eef00573e/transformed/core-1.6.1/AndroidManifest.xml:24:22-69
+21-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1beacd5ec60fb8f90d8ee1280460d4eb/transformed/core-1.6.1/AndroidManifest.xml:24:5-72
+21-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1beacd5ec60fb8f90d8ee1280460d4eb/transformed/core-1.6.1/AndroidManifest.xml:24:22-69
 22
 23    <queries>
-23-->[androidx.test:runner:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/20e05acd9ea428dde7d187c8d2a3a098/transformed/runner-1.6.1/AndroidManifest.xml:24:5-28:15
+23-->[androidx.test:runner:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/07544803e5f486fb30e761c88038755b/transformed/runner-1.6.1/AndroidManifest.xml:24:5-28:15
 24        <package android:name="androidx.test.orchestrator" />
-24-->[androidx.test:runner:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/20e05acd9ea428dde7d187c8d2a3a098/transformed/runner-1.6.1/AndroidManifest.xml:25:9-62
-24-->[androidx.test:runner:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/20e05acd9ea428dde7d187c8d2a3a098/transformed/runner-1.6.1/AndroidManifest.xml:25:18-59
+24-->[androidx.test:runner:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/07544803e5f486fb30e761c88038755b/transformed/runner-1.6.1/AndroidManifest.xml:25:9-62
+24-->[androidx.test:runner:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/07544803e5f486fb30e761c88038755b/transformed/runner-1.6.1/AndroidManifest.xml:25:18-59
 25        <package android:name="androidx.test.services" />
-25-->[androidx.test:runner:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/20e05acd9ea428dde7d187c8d2a3a098/transformed/runner-1.6.1/AndroidManifest.xml:26:9-58
-25-->[androidx.test:runner:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/20e05acd9ea428dde7d187c8d2a3a098/transformed/runner-1.6.1/AndroidManifest.xml:26:18-55
+25-->[androidx.test:runner:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/07544803e5f486fb30e761c88038755b/transformed/runner-1.6.1/AndroidManifest.xml:26:9-58
+25-->[androidx.test:runner:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/07544803e5f486fb30e761c88038755b/transformed/runner-1.6.1/AndroidManifest.xml:26:18-55
 26        <package android:name="com.google.android.apps.common.testing.services" />
-26-->[androidx.test:runner:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/20e05acd9ea428dde7d187c8d2a3a098/transformed/runner-1.6.1/AndroidManifest.xml:27:9-83
-26-->[androidx.test:runner:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/20e05acd9ea428dde7d187c8d2a3a098/transformed/runner-1.6.1/AndroidManifest.xml:27:18-80
+26-->[androidx.test:runner:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/07544803e5f486fb30e761c88038755b/transformed/runner-1.6.1/AndroidManifest.xml:27:9-83
+26-->[androidx.test:runner:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/07544803e5f486fb30e761c88038755b/transformed/runner-1.6.1/AndroidManifest.xml:27:18-80
 27    </queries>
 28
 29    <application
-29-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15787078756010830579.xml:7:5-9:19
+29-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3742212271020872576.xml:7:5-9:19
 30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-30-->[androidx.core:core:1.15.0] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/8bb4698b5320a170a9a8f7463b7496ef/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+30-->[androidx.core:core:1.15.0] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/a530c140fed5f0dcf41557cfa2555982/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
 31        android:debuggable="true"
 32        android:extractNativeLibs="false" >
 33        <uses-library android:name="android.test.runner" />
-33-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15787078756010830579.xml:8:9-60
-33-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15787078756010830579.xml:8:23-57
+33-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3742212271020872576.xml:8:9-60
+33-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3742212271020872576.xml:8:23-57
 34
 35        <provider
-35-->[androidx.emoji2:emoji2:1.3.0] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/549daafb80b6e6a743794d769ddbb57b/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+35-->[androidx.emoji2:emoji2:1.3.0] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/2838082bb61613c93bb43cd90b55887d/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
 36            android:name="androidx.startup.InitializationProvider"
-36-->[androidx.emoji2:emoji2:1.3.0] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/549daafb80b6e6a743794d769ddbb57b/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+36-->[androidx.emoji2:emoji2:1.3.0] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/2838082bb61613c93bb43cd90b55887d/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
 37            android:authorities="com.etisilattask.movies.common.presentation.test.androidx-startup"
-37-->[androidx.emoji2:emoji2:1.3.0] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/549daafb80b6e6a743794d769ddbb57b/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+37-->[androidx.emoji2:emoji2:1.3.0] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/2838082bb61613c93bb43cd90b55887d/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
 38            android:exported="false" >
-38-->[androidx.emoji2:emoji2:1.3.0] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/549daafb80b6e6a743794d769ddbb57b/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+38-->[androidx.emoji2:emoji2:1.3.0] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/2838082bb61613c93bb43cd90b55887d/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
 39            <meta-data
-39-->[androidx.emoji2:emoji2:1.3.0] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/549daafb80b6e6a743794d769ddbb57b/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+39-->[androidx.emoji2:emoji2:1.3.0] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/2838082bb61613c93bb43cd90b55887d/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
 40                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-40-->[androidx.emoji2:emoji2:1.3.0] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/549daafb80b6e6a743794d769ddbb57b/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+40-->[androidx.emoji2:emoji2:1.3.0] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/2838082bb61613c93bb43cd90b55887d/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
 41                android:value="androidx.startup" />
-41-->[androidx.emoji2:emoji2:1.3.0] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/549daafb80b6e6a743794d769ddbb57b/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+41-->[androidx.emoji2:emoji2:1.3.0] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/2838082bb61613c93bb43cd90b55887d/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
 42            <meta-data
-42-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1678cdca40f345a1dbcebb706461fe19/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+42-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/57d52ce290069eab6346a14029700183/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
 43                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-43-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1678cdca40f345a1dbcebb706461fe19/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+43-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/57d52ce290069eab6346a14029700183/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
 44                android:value="androidx.startup" />
-44-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1678cdca40f345a1dbcebb706461fe19/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+44-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/57d52ce290069eab6346a14029700183/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
 45            <meta-data
-45-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e201711118a175cb336e16d1ee2cb14d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+45-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/9f8d1de1a7f770a5363837ac40bc9169/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
 46                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-46-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e201711118a175cb336e16d1ee2cb14d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+46-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/9f8d1de1a7f770a5363837ac40bc9169/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
 47                android:value="androidx.startup" />
-47-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e201711118a175cb336e16d1ee2cb14d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+47-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/9f8d1de1a7f770a5363837ac40bc9169/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
 48        </provider>
 49
 50        <activity
-50-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e8b9a33b6bd36628d07f6f4eef00573e/transformed/core-1.6.1/AndroidManifest.xml:27:9-34:20
+50-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1beacd5ec60fb8f90d8ee1280460d4eb/transformed/core-1.6.1/AndroidManifest.xml:27:9-34:20
 51            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
-51-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e8b9a33b6bd36628d07f6f4eef00573e/transformed/core-1.6.1/AndroidManifest.xml:28:13-99
+51-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1beacd5ec60fb8f90d8ee1280460d4eb/transformed/core-1.6.1/AndroidManifest.xml:28:13-99
 52            android:exported="true"
-52-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e8b9a33b6bd36628d07f6f4eef00573e/transformed/core-1.6.1/AndroidManifest.xml:29:13-36
+52-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1beacd5ec60fb8f90d8ee1280460d4eb/transformed/core-1.6.1/AndroidManifest.xml:29:13-36
 53            android:theme="@style/WhiteBackgroundTheme" >
-53-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e8b9a33b6bd36628d07f6f4eef00573e/transformed/core-1.6.1/AndroidManifest.xml:30:13-56
+53-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1beacd5ec60fb8f90d8ee1280460d4eb/transformed/core-1.6.1/AndroidManifest.xml:30:13-56
 54            <intent-filter android:priority="-100" >
-54-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e8b9a33b6bd36628d07f6f4eef00573e/transformed/core-1.6.1/AndroidManifest.xml:31:13-33:29
-54-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e8b9a33b6bd36628d07f6f4eef00573e/transformed/core-1.6.1/AndroidManifest.xml:31:28-51
+54-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1beacd5ec60fb8f90d8ee1280460d4eb/transformed/core-1.6.1/AndroidManifest.xml:31:13-33:29
+54-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1beacd5ec60fb8f90d8ee1280460d4eb/transformed/core-1.6.1/AndroidManifest.xml:31:28-51
 55                <category android:name="android.intent.category.LAUNCHER" />
-55-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e8b9a33b6bd36628d07f6f4eef00573e/transformed/core-1.6.1/AndroidManifest.xml:32:17-77
-55-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e8b9a33b6bd36628d07f6f4eef00573e/transformed/core-1.6.1/AndroidManifest.xml:32:27-74
+55-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1beacd5ec60fb8f90d8ee1280460d4eb/transformed/core-1.6.1/AndroidManifest.xml:32:17-77
+55-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1beacd5ec60fb8f90d8ee1280460d4eb/transformed/core-1.6.1/AndroidManifest.xml:32:27-74
 56            </intent-filter>
 57        </activity>
 58        <activity
-58-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e8b9a33b6bd36628d07f6f4eef00573e/transformed/core-1.6.1/AndroidManifest.xml:35:9-42:20
+58-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1beacd5ec60fb8f90d8ee1280460d4eb/transformed/core-1.6.1/AndroidManifest.xml:35:9-42:20
 59            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
-59-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e8b9a33b6bd36628d07f6f4eef00573e/transformed/core-1.6.1/AndroidManifest.xml:36:13-95
+59-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1beacd5ec60fb8f90d8ee1280460d4eb/transformed/core-1.6.1/AndroidManifest.xml:36:13-95
 60            android:exported="true"
-60-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e8b9a33b6bd36628d07f6f4eef00573e/transformed/core-1.6.1/AndroidManifest.xml:37:13-36
+60-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1beacd5ec60fb8f90d8ee1280460d4eb/transformed/core-1.6.1/AndroidManifest.xml:37:13-36
 61            android:theme="@style/WhiteBackgroundTheme" >
-61-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e8b9a33b6bd36628d07f6f4eef00573e/transformed/core-1.6.1/AndroidManifest.xml:38:13-56
+61-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1beacd5ec60fb8f90d8ee1280460d4eb/transformed/core-1.6.1/AndroidManifest.xml:38:13-56
 62            <intent-filter android:priority="-100" >
-62-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e8b9a33b6bd36628d07f6f4eef00573e/transformed/core-1.6.1/AndroidManifest.xml:31:13-33:29
-62-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e8b9a33b6bd36628d07f6f4eef00573e/transformed/core-1.6.1/AndroidManifest.xml:31:28-51
+62-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1beacd5ec60fb8f90d8ee1280460d4eb/transformed/core-1.6.1/AndroidManifest.xml:31:13-33:29
+62-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1beacd5ec60fb8f90d8ee1280460d4eb/transformed/core-1.6.1/AndroidManifest.xml:31:28-51
 63                <category android:name="android.intent.category.LAUNCHER" />
-63-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e8b9a33b6bd36628d07f6f4eef00573e/transformed/core-1.6.1/AndroidManifest.xml:32:17-77
-63-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e8b9a33b6bd36628d07f6f4eef00573e/transformed/core-1.6.1/AndroidManifest.xml:32:27-74
+63-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1beacd5ec60fb8f90d8ee1280460d4eb/transformed/core-1.6.1/AndroidManifest.xml:32:17-77
+63-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1beacd5ec60fb8f90d8ee1280460d4eb/transformed/core-1.6.1/AndroidManifest.xml:32:27-74
 64            </intent-filter>
 65        </activity>
 66        <activity
-66-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e8b9a33b6bd36628d07f6f4eef00573e/transformed/core-1.6.1/AndroidManifest.xml:43:9-50:20
+66-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1beacd5ec60fb8f90d8ee1280460d4eb/transformed/core-1.6.1/AndroidManifest.xml:43:9-50:20
 67            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
-67-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e8b9a33b6bd36628d07f6f4eef00573e/transformed/core-1.6.1/AndroidManifest.xml:44:13-103
+67-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1beacd5ec60fb8f90d8ee1280460d4eb/transformed/core-1.6.1/AndroidManifest.xml:44:13-103
 68            android:exported="true"
-68-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e8b9a33b6bd36628d07f6f4eef00573e/transformed/core-1.6.1/AndroidManifest.xml:45:13-36
+68-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1beacd5ec60fb8f90d8ee1280460d4eb/transformed/core-1.6.1/AndroidManifest.xml:45:13-36
 69            android:theme="@style/WhiteBackgroundDialogTheme" >
-69-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e8b9a33b6bd36628d07f6f4eef00573e/transformed/core-1.6.1/AndroidManifest.xml:46:13-62
+69-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1beacd5ec60fb8f90d8ee1280460d4eb/transformed/core-1.6.1/AndroidManifest.xml:46:13-62
 70            <intent-filter android:priority="-100" >
-70-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e8b9a33b6bd36628d07f6f4eef00573e/transformed/core-1.6.1/AndroidManifest.xml:31:13-33:29
-70-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e8b9a33b6bd36628d07f6f4eef00573e/transformed/core-1.6.1/AndroidManifest.xml:31:28-51
+70-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1beacd5ec60fb8f90d8ee1280460d4eb/transformed/core-1.6.1/AndroidManifest.xml:31:13-33:29
+70-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1beacd5ec60fb8f90d8ee1280460d4eb/transformed/core-1.6.1/AndroidManifest.xml:31:28-51
 71                <category android:name="android.intent.category.LAUNCHER" />
-71-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e8b9a33b6bd36628d07f6f4eef00573e/transformed/core-1.6.1/AndroidManifest.xml:32:17-77
-71-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e8b9a33b6bd36628d07f6f4eef00573e/transformed/core-1.6.1/AndroidManifest.xml:32:27-74
+71-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1beacd5ec60fb8f90d8ee1280460d4eb/transformed/core-1.6.1/AndroidManifest.xml:32:17-77
+71-->[androidx.test:core:1.6.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1beacd5ec60fb8f90d8ee1280460d4eb/transformed/core-1.6.1/AndroidManifest.xml:32:27-74
 72            </intent-filter>
 73        </activity>
 74        <activity
-74-->[androidx.compose.ui:ui-test-manifest:1.7.7] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/a692b543c5d86137c4108f807377eb1c/transformed/ui-test-manifest-1.7.7/AndroidManifest.xml:23:9-25:39
+74-->[androidx.compose.ui:ui-test-manifest:1.7.7] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/d2c193bebba8e9fdb0301b5477623b77/transformed/ui-test-manifest-1.7.7/AndroidManifest.xml:23:9-25:39
 75            android:name="androidx.activity.ComponentActivity"
-75-->[androidx.compose.ui:ui-test-manifest:1.7.7] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/a692b543c5d86137c4108f807377eb1c/transformed/ui-test-manifest-1.7.7/AndroidManifest.xml:24:13-63
+75-->[androidx.compose.ui:ui-test-manifest:1.7.7] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/d2c193bebba8e9fdb0301b5477623b77/transformed/ui-test-manifest-1.7.7/AndroidManifest.xml:24:13-63
 76            android:exported="true" />
-76-->[androidx.compose.ui:ui-test-manifest:1.7.7] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/a692b543c5d86137c4108f807377eb1c/transformed/ui-test-manifest-1.7.7/AndroidManifest.xml:25:13-36
+76-->[androidx.compose.ui:ui-test-manifest:1.7.7] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/d2c193bebba8e9fdb0301b5477623b77/transformed/ui-test-manifest-1.7.7/AndroidManifest.xml:25:13-36
 77        <activity
-77-->[androidx.compose.ui:ui-tooling-android:1.7.7] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/705d23c61b441c87a5379f68c41729c4/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+77-->[androidx.compose.ui:ui-tooling-android:1.7.7] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/12ecf14fc48ffa1c471ea383be3ce9a4/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
 78            android:name="androidx.compose.ui.tooling.PreviewActivity"
-78-->[androidx.compose.ui:ui-tooling-android:1.7.7] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/705d23c61b441c87a5379f68c41729c4/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+78-->[androidx.compose.ui:ui-tooling-android:1.7.7] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/12ecf14fc48ffa1c471ea383be3ce9a4/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
 79            android:exported="true" />
-79-->[androidx.compose.ui:ui-tooling-android:1.7.7] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/705d23c61b441c87a5379f68c41729c4/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+79-->[androidx.compose.ui:ui-tooling-android:1.7.7] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/12ecf14fc48ffa1c471ea383be3ce9a4/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
 80
 81        <receiver
-81-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e201711118a175cb336e16d1ee2cb14d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/9f8d1de1a7f770a5363837ac40bc9169/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
 82            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-82-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e201711118a175cb336e16d1ee2cb14d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/9f8d1de1a7f770a5363837ac40bc9169/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
 83            android:directBootAware="false"
-83-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e201711118a175cb336e16d1ee2cb14d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/9f8d1de1a7f770a5363837ac40bc9169/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
 84            android:enabled="true"
-84-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e201711118a175cb336e16d1ee2cb14d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/9f8d1de1a7f770a5363837ac40bc9169/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
 85            android:exported="true"
-85-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e201711118a175cb336e16d1ee2cb14d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/9f8d1de1a7f770a5363837ac40bc9169/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
 86            android:permission="android.permission.DUMP" >
-86-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e201711118a175cb336e16d1ee2cb14d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/9f8d1de1a7f770a5363837ac40bc9169/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
 87            <intent-filter>
-87-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e201711118a175cb336e16d1ee2cb14d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/9f8d1de1a7f770a5363837ac40bc9169/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
 88                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-88-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e201711118a175cb336e16d1ee2cb14d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
-88-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e201711118a175cb336e16d1ee2cb14d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/9f8d1de1a7f770a5363837ac40bc9169/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/9f8d1de1a7f770a5363837ac40bc9169/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
 89            </intent-filter>
 90            <intent-filter>
-90-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e201711118a175cb336e16d1ee2cb14d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/9f8d1de1a7f770a5363837ac40bc9169/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
 91                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-91-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e201711118a175cb336e16d1ee2cb14d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
-91-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e201711118a175cb336e16d1ee2cb14d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/9f8d1de1a7f770a5363837ac40bc9169/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/9f8d1de1a7f770a5363837ac40bc9169/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
 92            </intent-filter>
 93            <intent-filter>
-93-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e201711118a175cb336e16d1ee2cb14d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/9f8d1de1a7f770a5363837ac40bc9169/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
 94                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-94-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e201711118a175cb336e16d1ee2cb14d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
-94-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e201711118a175cb336e16d1ee2cb14d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/9f8d1de1a7f770a5363837ac40bc9169/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/9f8d1de1a7f770a5363837ac40bc9169/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
 95            </intent-filter>
 96            <intent-filter>
-96-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e201711118a175cb336e16d1ee2cb14d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/9f8d1de1a7f770a5363837ac40bc9169/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
 97                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-97-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e201711118a175cb336e16d1ee2cb14d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
-97-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/e201711118a175cb336e16d1ee2cb14d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/9f8d1de1a7f770a5363837ac40bc9169/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/9f8d1de1a7f770a5363837ac40bc9169/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
 98            </intent-filter>
 99        </receiver>
 100    </application>

@@ -1,4 +1,6 @@
 int drawable ic_no_internet 0x0
+int drawable ic_splash 0x0
+int drawable splash_inset 0x0
 int font poppins_bold 0x0
 int font poppins_medium 0x0
 int font poppins_regular 0x0

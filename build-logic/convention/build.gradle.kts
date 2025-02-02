@@ -65,9 +65,28 @@ gradlePlugin {
             id = "feature"
             implementationClass = "module.FeaturePlugin"
         }
-        register("featureSplashPresentationModule") {
-            id = "feature.splash.presentation"
-            implementationClass = "module.feature.splash.PresentationPlugin"
+
+
+
+
+
+        register("featureMoviesDataModule") {
+            id = "feature.movies.data"
+            implementationClass = "module.feature.movies.DataPlugin"
         }
+
+        register("featureMoviesDomainModule") {
+            id = "feature.movies.domain"
+            implementationClass = "module.feature.movies.DomainPlugin"
+        }
+
+
+        register("featureMoviesPresentationModule") {
+            id = "feature.movies.presentation"
+            implementationClass = "module.feature.movies.PresentationPlugin"
+        }
+
+
+
     }
 }

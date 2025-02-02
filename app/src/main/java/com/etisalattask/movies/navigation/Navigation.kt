@@ -1,7 +1,7 @@
 package com.etisalattask.movies.navigation
 
-import androidx.activity.ComponentActivity
 import androidx.activity.compose.BackHandler
+import androidx.activity.compose.LocalActivity
 import androidx.compose.animation.core.tween
 import androidx.compose.animation.slideInHorizontally
 import androidx.compose.animation.slideOutHorizontally
@@ -11,13 +11,16 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.platform.LocalContext
 import androidx.navigation.NavHostController
+import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import androidx.navigation.navArgument
 import com.etisalattask.movies.common.presentation.Screen
-import com.etisilattask.movies.feature.splash.presentation.SplashRoute
+import com.etisalattask.movies.common.presentation.Screen.AllMoviesScreen
+import com.etisalattask.movies.feature.movies.presentation.AllMoviesRoute
+import com.etisalattask.movies.feature.movies.presentation.MovieDetailsRoute
 
 @Composable
 fun AppNavigation() {
@@ -26,17 +29,26 @@ fun AppNavigation() {
     Box(modifier = Modifier.fillMaxSize()) {
         NavHost(
             navController = navController,
-            startDestination = Screen.SplashScreen.route,
+            startDestination = AllMoviesScreen.route,
             modifier = Modifier.background(Color.Transparent),
             enterTransition = { defaultEnterTransition() },
             exitTransition = { defaultExitTransition() },
             popEnterTransition = { defaultPopEnterTransition() },
             popExitTransition = { defaultPopExitTransition() }
         ) {
-            composable(Screen.SplashScreen.route) {
+            composable(AllMoviesScreen.route) {
                 HandleBackPress()
-                SplashRoute(navController)
+                AllMoviesRoute(navController)
             }
+
+            composable(
+                route = Screen.MovieDetailsScreen.route,
+                arguments = listOf(navArgument("movieId") { type = NavType.IntType })
+            ) { backStackEntry ->
+                val movieId = backStackEntry.arguments?.getInt("movieId")
+                MovieDetailsRoute(navController, movieId)
+            }
+
         }
     }
 }
@@ -65,6 +77,6 @@ private fun defaultPopExitTransition() = slideOutHorizontally(
 
 @Composable
 private fun HandleBackPress() {
-    val activity = LocalContext.current as ComponentActivity
-    BackHandler(enabled = true) { activity.finish() }
+    val activity = LocalActivity.current
+    BackHandler(enabled = true) { activity?.finish() }
 }

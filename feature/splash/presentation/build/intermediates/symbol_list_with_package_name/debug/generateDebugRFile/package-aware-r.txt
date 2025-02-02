@@ -1,1 +1,0 @@
-com.etisilattask.movies.feature.splash.presentation

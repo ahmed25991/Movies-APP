@@ -13,7 +13,7 @@ import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 
 @ScopeMetadata("javax.inject.Singleton")
-@QualifierMetadata
+@QualifierMetadata("javax.inject.Named")
 @DaggerGenerated
 @Generated(
     value = "dagger.internal.codegen.ComponentProcessor",
@@ -36,30 +36,36 @@ public final class NetworkModule_ProvideOkHttpClientFactory implements Factory<O
 
   private final Provider<Interceptor> headerInterceptorProvider;
 
+  private final Provider<Interceptor> queryInterceptorProvider;
+
   public NetworkModule_ProvideOkHttpClientFactory(
       Provider<HttpLoggingInterceptor> loggingInterceptorProvider, Provider<Cache> cacheProvider,
       Provider<Interceptor> cacheInterceptorProvider,
-      Provider<Interceptor> headerInterceptorProvider) {
+      Provider<Interceptor> headerInterceptorProvider,
+      Provider<Interceptor> queryInterceptorProvider) {
     this.loggingInterceptorProvider = loggingInterceptorProvider;
     this.cacheProvider = cacheProvider;
     this.cacheInterceptorProvider = cacheInterceptorProvider;
     this.headerInterceptorProvider = headerInterceptorProvider;
+    this.queryInterceptorProvider = queryInterceptorProvider;
   }
 
   @Override
   public OkHttpClient get() {
-    return provideOkHttpClient(loggingInterceptorProvider.get(), cacheProvider.get(), cacheInterceptorProvider.get(), headerInterceptorProvider.get());
+    return provideOkHttpClient(loggingInterceptorProvider.get(), cacheProvider.get(), cacheInterceptorProvider.get(), headerInterceptorProvider.get(), queryInterceptorProvider.get());
   }
 
   public static NetworkModule_ProvideOkHttpClientFactory create(
       Provider<HttpLoggingInterceptor> loggingInterceptorProvider, Provider<Cache> cacheProvider,
       Provider<Interceptor> cacheInterceptorProvider,
-      Provider<Interceptor> headerInterceptorProvider) {
-    return new NetworkModule_ProvideOkHttpClientFactory(loggingInterceptorProvider, cacheProvider, cacheInterceptorProvider, headerInterceptorProvider);
+      Provider<Interceptor> headerInterceptorProvider,
+      Provider<Interceptor> queryInterceptorProvider) {
+    return new NetworkModule_ProvideOkHttpClientFactory(loggingInterceptorProvider, cacheProvider, cacheInterceptorProvider, headerInterceptorProvider, queryInterceptorProvider);
   }
 
   public static OkHttpClient provideOkHttpClient(HttpLoggingInterceptor loggingInterceptor,
-      Cache cache, Interceptor cacheInterceptor, Interceptor headerInterceptor) {
-    return Preconditions.checkNotNullFromProvides(NetworkModule.INSTANCE.provideOkHttpClient(loggingInterceptor, cache, cacheInterceptor, headerInterceptor));
+      Cache cache, Interceptor cacheInterceptor, Interceptor headerInterceptor,
+      Interceptor queryInterceptor) {
+    return Preconditions.checkNotNullFromProvides(NetworkModule.INSTANCE.provideOkHttpClient(loggingInterceptor, cache, cacheInterceptor, headerInterceptor, queryInterceptor));
   }
 }

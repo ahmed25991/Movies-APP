@@ -16,15 +16,16 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MovieSapp"
+rootProject.name = "MoviesApp"
 include(":app")
 include(":core")
 include(":common:data:remote")
 include(":common:domain")
 include(":common:presentation")
-include(":feature:splash:data")
-include(":feature:splash:domain")
-include(":feature:splash:presentation")
+
+include(":feature:movies:data")
+include(":feature:movies:domain")
+include(":feature:movies:presentation")
 
 
  

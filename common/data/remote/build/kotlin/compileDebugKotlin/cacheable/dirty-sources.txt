@@ -1,5 +1,0 @@
-/Users/ahmed/Desktop/MoviesApp/common/data/remote/src/main/kotlin/com/etisalattask/movies/common/data/remote/dto/AppResponse.kt
-/Users/ahmed/Desktop/MoviesApp/common/data/remote/src/main/kotlin/com/etisalattask/movies/common/data/remote/di/IoDispatcher.kt
-/Users/ahmed/Desktop/MoviesApp/common/data/remote/src/main/kotlin/com/etisalattask/movies/common/data/remote/di/CoroutineDispatcherModule.kt
-/Users/ahmed/Desktop/MoviesApp/common/data/remote/src/main/kotlin/com/etisalattask/movies/common/data/remote/util/NetworkConstants.kt
-/Users/ahmed/Desktop/MoviesApp/common/data/remote/src/main/kotlin/com/etisalattask/movies/common/data/remote/di/NetworkModule.kt

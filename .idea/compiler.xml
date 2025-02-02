@@ -20,6 +20,7 @@
       <module name="DawarhaNextGen.feature.splash.presentation" target="21" />
       <module name="DawarhaNextGen.feature.wallet.data" target="21" />
       <module name="DawarhaNextGen.feature.wallet.presentation" target="21" />
+      <module name="MovieSapp.feature.splash.presentation" target="21" />
     </bytecodeTargetLevel>
   </component>
 </project>

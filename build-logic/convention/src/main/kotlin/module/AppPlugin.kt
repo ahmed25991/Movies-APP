@@ -21,8 +21,11 @@ class AppPlugin : Plugin<Project> {
                 implementation(project(":core"))
                 implementation(project(":common:domain"))
                 implementation(project(":common:presentation"))
-                implementation(project(":feature:splash:presentation"))
+                implementation(project(":feature:movies:data"))
+                implementation(project(":feature:movies:domain"))
+                implementation(project(":feature:movies:presentation"))
                 //libraries
+                implementation(library("splashApi"))
                 implementation(library("systemControlUi"))
                 implementation(library("navigation.compose"))
                 implementation(library("compose.constraint"))

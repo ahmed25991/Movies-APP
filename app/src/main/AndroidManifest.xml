@@ -14,9 +14,11 @@
         android:supportsRtl="false"
         android:theme="@style/Theme.MoviesTheme"
         android:usesCleartextTraffic="true">
+
         <activity
             android:name="com.etisalattask.movies.MainActivity"
             android:exported="true"
+            android:theme="@style/MoviesSplashTheme"
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

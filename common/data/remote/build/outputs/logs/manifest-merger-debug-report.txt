@@ -1,16 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/ahmed/Desktop/MoviesApp/common/data/remote/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8750078216441960830.xml:2:13-83
-INJECTED from /Users/ahmed/Desktop/MoviesApp/common/data/remote/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8750078216441960830.xml:2:13-83
+ADDED from /Users/ahmed/Desktop/MoviesApp/common/data/remote/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12796590595619875372.xml:2:13-83
+INJECTED from /Users/ahmed/Desktop/MoviesApp/common/data/remote/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12796590595619875372.xml:2:13-83
 	package
-		INJECTED from /Users/ahmed/Desktop/MoviesApp/common/data/remote/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8750078216441960830.xml
+		INJECTED from /Users/ahmed/Desktop/MoviesApp/common/data/remote/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12796590595619875372.xml
 	xmlns:android
-		ADDED from /Users/ahmed/Desktop/MoviesApp/common/data/remote/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8750078216441960830.xml:2:23-81
+		ADDED from /Users/ahmed/Desktop/MoviesApp/common/data/remote/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12796590595619875372.xml:2:23-81
 uses-sdk
-INJECTED from /Users/ahmed/Desktop/MoviesApp/common/data/remote/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8750078216441960830.xml reason: use-sdk injection requested
-INJECTED from /Users/ahmed/Desktop/MoviesApp/common/data/remote/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8750078216441960830.xml
-INJECTED from /Users/ahmed/Desktop/MoviesApp/common/data/remote/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8750078216441960830.xml
+INJECTED from /Users/ahmed/Desktop/MoviesApp/common/data/remote/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12796590595619875372.xml reason: use-sdk injection requested
+INJECTED from /Users/ahmed/Desktop/MoviesApp/common/data/remote/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12796590595619875372.xml
+INJECTED from /Users/ahmed/Desktop/MoviesApp/common/data/remote/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12796590595619875372.xml
 	android:targetSdkVersion
-		INJECTED from /Users/ahmed/Desktop/MoviesApp/common/data/remote/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8750078216441960830.xml
+		INJECTED from /Users/ahmed/Desktop/MoviesApp/common/data/remote/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12796590595619875372.xml
 	android:minSdkVersion
-		INJECTED from /Users/ahmed/Desktop/MoviesApp/common/data/remote/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8750078216441960830.xml
+		INJECTED from /Users/ahmed/Desktop/MoviesApp/common/data/remote/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12796590595619875372.xml

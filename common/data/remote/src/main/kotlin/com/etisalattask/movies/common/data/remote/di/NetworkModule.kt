@@ -19,6 +19,7 @@ import dagger.hilt.android.qualifiers.ApplicationContext
 import okhttp3.Cache
 import okhttp3.Interceptor
 import java.io.File
+import javax.inject.Named
 
 
 /**
@@ -61,6 +62,7 @@ object NetworkModule {
 
     @Provides
     @Singleton
+    @Named("CacheInterceptor")
     fun provideCacheInterceptor() = Interceptor { chain ->
         val response = chain.proceed(chain.request())
         response.newBuilder()
@@ -71,6 +73,7 @@ object NetworkModule {
 
     @Provides
     @Singleton
+    @Named("HeaderInterceptor")
     fun provideHeaderInterceptor() = Interceptor { chain ->
         val response = chain.proceed(chain.request())
         response.newBuilder()
@@ -78,6 +81,24 @@ object NetworkModule {
             .header("Authorization", BuildConfig.ACCESS_TOKEN)
             .build()
     }
+
+
+    @Provides
+    @Singleton
+    @Named("QueryInterceptor")
+    fun provideQueryInterceptor() = Interceptor { chain ->
+        val original = chain.request()
+        val originalUrl = original.url
+
+        val newUrl = originalUrl.newBuilder()
+            .addQueryParameter("api_key", BuildConfig.API_KEY)
+            .build()
+
+        val requestBuilder = original.newBuilder().url(newUrl)
+        chain.proceed(requestBuilder.build())
+    }
+
+
 
 
 
@@ -94,8 +115,9 @@ object NetworkModule {
     fun provideOkHttpClient(
         loggingInterceptor: HttpLoggingInterceptor,
         cache: Cache,
-        cacheInterceptor: Interceptor,
-        headerInterceptor: Interceptor,
+        @Named("CacheInterceptor") cacheInterceptor: Interceptor,
+        @Named("HeaderInterceptor") headerInterceptor: Interceptor,
+        @Named("QueryInterceptor") queryInterceptor: Interceptor
     ): OkHttpClient = OkHttpClient.Builder()
         .connectTimeout(CLIENT_TIME_OUT, TimeUnit.SECONDS)
         .readTimeout(CLIENT_TIME_OUT, TimeUnit.SECONDS)
@@ -103,7 +125,8 @@ object NetworkModule {
         .cache(cache)
         .addInterceptor(loggingInterceptor)
         .addInterceptor(headerInterceptor)
-        .addNetworkInterceptor(cacheInterceptor) // Use network interceptor for caching
+        .addNetworkInterceptor(cacheInterceptor)
+        .addNetworkInterceptor(queryInterceptor)
         .build()
 
 
