@@ -13,10 +13,12 @@ class PresentationPlugin : Plugin<Project> {
             pluginManager.apply {
                 apply("feature")
             }
+
             dependencies {
                 implementation(project(":common:domain"))
                 implementation(project(":feature:movies:domain"))
                 implementation(library("compose.constraint"))
+                implementation(library("placeholdermaterial3"))
             }
         }
     }

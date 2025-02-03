@@ -26,7 +26,7 @@ fun moviesAppTypography(): Typography {
     return Typography(
         titleLarge = TextStyle(
             fontFamily = Poppins,
-            fontSize = adaptiveFont(22f).sp, // Adaptive
+            fontSize = adaptiveFont(22f).sp,
         ),
         titleMedium = TextStyle(
             fontFamily = Poppins,

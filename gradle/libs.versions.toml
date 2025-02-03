@@ -23,11 +23,9 @@ navigation = "2.8.6"
 lifecycle = "2.8.7"
 coil = "2.7.0"
 coroutines = "1.8.1"
-coroutines-test = "1.8.1"
 localizationManager = "1.0"
 test-runner = "1.6.2"
 gson = "2.11.0"
-mockk = "1.13.5"
 inject = "1"
 hilt-navigation = "1.2.0"
 moshi-kotlin = "1.15.1"
@@ -38,6 +36,18 @@ compose-constraint = "1.1.0"
 lottie = "6.6.0"
 systemControlUi = "0.34.0"
 splashApi = "1.0.1"
+placeholdermaterial3version = "0.31.3-beta"
+
+
+junit = "4.13.2"
+mockito-core = "5.14.2"
+mockito-kotlin = "4.0.0"
+mockk = "1.13.5"
+coroutines-test = "1.8.1"
+mockwebserver = "4.9.3"
+truth = "1.1.3"
+
+
 
 
 [libraries]
@@ -70,11 +80,9 @@ navigation-testing = { group = "androidx.navigation", name = "navigation-testing
 kotlin-serialization = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlin-serialization" }
 javax-inject = { group = "javax.inject", name = "javax.inject", version.ref = "inject" }
 coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines-test" }
 localizationManager = { group = "com.github.emirhanemmez", name = "localizationmanager", version.ref = "localizationManager" }
 test-runner = { group = "androidx.test", name = "runner", version.ref = "test-runner" }
 gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
-mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
 
 android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }
 kotlin-gradlePlugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
@@ -89,8 +97,18 @@ compose-constraint = { module = "androidx.constraintlayout:constraintlayout-comp
 lottie = { module = "com.airbnb.android:lottie-compose" , version.ref = "lottie"  }
 systemControlUi = { module = "com.google.accompanist:accompanist-systemuicontroller" , version.ref = "systemControlUi"  }
 splashApi = { module = "androidx.core:core-splashscreen" , version.ref = "splashApi"  }
+placeholdermaterial3 = { module = "com.google.accompanist:accompanist-placeholder-material3" , version.ref = "placeholdermaterial3version"  }
 
-[bundles]
+
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+mockito-core = { group = "org.mockito", name = "mockito-core", version.ref = "mockito-core" }
+mockito-kotlin = { group = "org.mockito.kotlin", name = "mockito-kotlin", version.ref = "mockito-kotlin" }
+mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
+coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines-test" }
+mockwebserver = { group = "com.squareup.okhttp3", name = "mockwebserver", version.ref = "mockwebserver" }
+truth = { group = "com.google.truth", name = "truth", version.ref = "truth" }
+
+
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }

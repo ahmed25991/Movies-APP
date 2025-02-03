@@ -666,6 +666,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable ic_back_arrow
 drawable ic_call_answer
 drawable ic_call_answer_low
 drawable ic_call_answer_video

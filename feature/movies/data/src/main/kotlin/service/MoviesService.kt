@@ -1,6 +1,7 @@
 package service
 
 
+import dto.MovieDetailsResponse
 import dto.MoviesResponse
 import retrofit2.Response
 import retrofit2.http.GET
@@ -16,4 +17,12 @@ interface MoviesService {
         @Query("page") page: Int?,
     ): Response<MoviesResponse>
 
-    }
+
+
+    @GET("movie/{movieId}")
+    suspend fun fetchMovieDetails(
+        @Path("movieId") movieId: Int?,
+        @Query("language") language: String = "en-US"
+    ): Response<MovieDetailsResponse>
+
+}

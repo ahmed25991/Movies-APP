@@ -49,10 +49,10 @@ fun PaginatedMovieContent(
     var currentPage by remember { mutableIntStateOf(1) }
     var totalPages by remember { mutableIntStateOf(1) }
 
-    // Reset the list when the pageType changes (user switches tabs)
+    // Reset the list when the pageType changes
     LaunchedEffect(pageType) {
-        allMovies = emptyList() // Clear movies when switching tabs
-        currentPage = 1 // Reset to first page
+        allMovies = emptyList()
+        currentPage = 1
         viewModel.fetchMovies(currentPage = currentPage, pageType = pageType)
     }
 
@@ -66,9 +66,9 @@ fun PaginatedMovieContent(
             val response = (moviesUiState as CommonUiState.Content).model as MoviesResponse
             totalPages = response.total_pages ?: 1
 
-            // Ensure only unique movies are added to the list
+            // Add unique movies to the list
             allMovies = (allMovies + (response.results ?: emptyList()))
-                .distinctBy { it.id } // Prevent duplicate movies
+                .distinctBy { it.id }
 
             isLoadingMore = if (allMovies.isEmpty()) LoadingType.EmptyData else LoadingType.GotData
         }
@@ -86,7 +86,6 @@ fun PaginatedMovieContent(
         else -> Unit
     }
 
-
     Box(modifier = Modifier.fillMaxSize()) {
         LazyVerticalGrid(
             columns = GridCells.Fixed(2),
@@ -95,15 +94,20 @@ fun PaginatedMovieContent(
             horizontalArrangement = Arrangement.spacedBy(16.dp),
             verticalArrangement = Arrangement.spacedBy(16.dp)
         ) {
-            itemsIndexed(allMovies) { index, movie ->
-                cardContent(movie){
-                    navController.navigate(Screen.MovieDetailsScreen.createRoute(movie.id))
-                }
-                if (index == allMovies.size - 1 &&
-                    currentPage < totalPages &&
-                    isLoadingMore == LoadingType.GotData
-                ) {
-                    currentPage++
+            if (isLoadingMore == LoadingType.Loading && allMovies.isEmpty()) {
+                // Show shimmer placeholders when loading
+                items(6) { MovieCardShimmer() } // Showing 6 shimmer cards
+            } else {
+                itemsIndexed(allMovies) { index, movie ->
+                    cardContent(movie) {
+                        navController.navigate(Screen.MovieDetailsScreen.createRoute(movie.id))
+                    }
+                    if (index == allMovies.size - 1 &&
+                        currentPage < totalPages &&
+                        isLoadingMore == LoadingType.GotData
+                    ) {
+                        currentPage++
+                    }
                 }
             }
         }
@@ -113,6 +117,7 @@ fun PaginatedMovieContent(
         }
     }
 }
+
 
 
 

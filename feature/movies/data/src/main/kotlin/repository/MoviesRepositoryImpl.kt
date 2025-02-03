@@ -1,48 +1,31 @@
 package repository
 
+import com.etisalattask.movies.common.data.remote.BaseRepository
 import com.etisalattask.movies.common.data.remote.di.IoDispatcher
-import com.etisalattask.movies.common.data.remote.dto.ErrorResponse
+import com.etisalattask.movies.core.Result
+import dto.MovieDetailsResponse
 import dto.MoviesResponse
 import kotlinx.coroutines.CoroutineDispatcher
-import kotlinx.coroutines.flow.catch
-import kotlinx.coroutines.flow.flow
+import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flowOn
-import com.etisalattask.movies.core.Result
-import com.google.gson.Gson
-import kotlinx.coroutines.flow.onStart
 import repo.MoviesRepository
 import service.MoviesService
 import javax.inject.Inject
 
-
-class MoviesRepositoryImpl  @Inject constructor(
+class MoviesRepositoryImpl @Inject constructor(
     private val moviesService: MoviesService,
     @IoDispatcher private val ioDispatcher: CoroutineDispatcher
-) : MoviesRepository {
+) : MoviesRepository, BaseRepository() {
 
-    override fun fetchMovies(currentPage: Int?,pageType:String?) =
-        flow<Result<MoviesResponse, String>> {
-            val response = moviesService.fetchMovies(
-                page = currentPage,
-                pageType = pageType
-            )
-            val body = response.body()
-            if (response.isSuccessful) {
-                if (body != null ) {
-                    emit(Result.Success(body))
-                }
-            } else {
-                val errorResponse = Gson().fromJson(response.errorBody()?.string(), ErrorResponse::class.java)
-                emit(Result.Fail(message = errorResponse.status_message))
-            }
-        }.onStart {
-            emit(Result.Loading())
-        }.catch {
-            emit(Result.Fail(message = it.localizedMessage?:"Internal Server Error"))
+    override fun fetchMovies(currentPage: Int?, pageType: String?): Flow<Result<MoviesResponse, String>> {
+        return safeApiCall {
+            moviesService.fetchMovies(page = currentPage, pageType = pageType)
         }.flowOn(ioDispatcher)
-
-
-
-
     }
 
+    override fun fetchMovieDetails(movieId: Int?): Flow<Result<MovieDetailsResponse, String>> {
+        return safeApiCall {
+            moviesService.fetchMovieDetails(movieId = movieId)
+        }.flowOn(ioDispatcher)
+    }
+}

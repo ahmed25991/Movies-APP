@@ -1,3 +1,4 @@
+int drawable ic_back_arrow 0x0
 int drawable ic_no_internet 0x0
 int drawable ic_splash 0x0
 int drawable splash_inset 0x0

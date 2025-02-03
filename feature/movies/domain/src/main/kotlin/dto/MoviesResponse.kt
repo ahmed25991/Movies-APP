@@ -1,16 +1,16 @@
 package dto
 
 data class MoviesResponse(
-    val dates :DatesModel?,
-    val page :Int?,
-    val total_pages :Int?,
-    val total_results :Int?,
-    val results :List<MovieModel>?
+    val dates :DatesModel?= null,
+    val page :Int?=null,
+    val total_pages :Int?=null,
+    val total_results :Int?=null,
+    val results :List<MovieModel>?=null
 )
 
 data class DatesModel(
-    val maximum :String?,
-    val minimum :String?,
+    val maximum :String?=null,
+    val minimum :String?=null,
 )
 
 

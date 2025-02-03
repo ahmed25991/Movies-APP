@@ -1,4 +1,4 @@
-import org.gradle.api.internal.DocumentationRegistry.BASE_URL
+
 import java.io.FileInputStream
 import java.util.Properties
 
@@ -16,10 +16,6 @@ val localProperties = Properties().apply {
 val BASE_URL: String = localProperties.getProperty("BASE_URL")
 val ACCESS_TOKEN: String = localProperties.getProperty("ACCESS_TOKEN")
 val API_KEY: String = localProperties.getProperty("API_KEY")
-
-
-
-
 
 
 android {

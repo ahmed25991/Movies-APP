@@ -1,6 +1,8 @@
 package module.feature.movies
 
 import com.etisalattask.movies.convention.util.implementation
+import com.etisalattask.movies.convention.util.library
+import com.etisalattask.movies.convention.util.testImplementation
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.dependencies

@@ -34,7 +34,7 @@ fun MovieCard(movie: MovieModel, onViewDetails: () -> Unit) {
             AsyncImage(
                 model = "https://image.tmdb.org/t/p/w500${movie.poster_path}",
                 contentDescription = movie.title,
-                contentScale = androidx.compose.ui.layout.ContentScale.Crop,
+                contentScale = androidx.compose.ui.layout.ContentScale.FillBounds,
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(200.dp)

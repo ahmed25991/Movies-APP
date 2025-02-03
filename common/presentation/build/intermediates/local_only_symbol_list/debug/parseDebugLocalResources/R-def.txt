@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+drawable ic_back_arrow
 drawable ic_no_internet
 drawable ic_splash
 drawable splash_inset

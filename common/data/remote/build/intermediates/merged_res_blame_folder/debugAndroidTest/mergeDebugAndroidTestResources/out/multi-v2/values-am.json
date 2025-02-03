@@ -4,24 +4,7 @@
             "outputFile": "com.etisilattask.movies.common.data.remote.test.remote-mergeDebugAndroidTestResources-0:/values-am/values-am.xml",
             "map": [
                 {
-                    "source": "/Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/10e8cf15276ba7a46498d9f3c694afa8/transformed/ui-1.0.1/res/values-am/values-am.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,188,265,357,435,531,613,691,757,823,893,958",
-                        "endColumns": "82,76,91,77,95,81,77,65,65,69,64,115",
-                        "endOffsets": "183,260,352,430,526,608,686,752,818,888,953,1069"
-                    },
-                    "to": {
-                        "startLines": "9,10,11,12,13,14,15,16,17,18,20,21",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "792,875,952,1044,1122,1218,1300,1378,1444,1510,1681,1746",
-                        "endColumns": "82,76,91,77,95,81,77,65,65,69,64,115",
-                        "endOffsets": "870,947,1039,1117,1213,1295,1373,1439,1505,1575,1741,1857"
-                    }
-                },
-                {
-                    "source": "/Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/a530c140fed5f0dcf41557cfa2555982/transformed/core-1.15.0/res/values-am/values-am.xml",
+                    "source": "/Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1d55cd75356f2c95bf5d956a8168125b/transformed/core-1.15.0/res/values-am/values-am.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -35,6 +18,23 @@
                         "startOffsets": "105,198,298,395,494,590,692,1580",
                         "endColumns": "92,99,96,98,95,101,99,100",
                         "endOffsets": "193,293,390,489,585,687,787,1676"
+                    }
+                },
+                {
+                    "source": "/Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/d0bc86c3defec00f1fa0b80958c1ea55/transformed/ui-1.0.1/res/values-am/values-am.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,188,265,357,435,531,613,691,757,823,893,958",
+                        "endColumns": "82,76,91,77,95,81,77,65,65,69,64,115",
+                        "endOffsets": "183,260,352,430,526,608,686,752,818,888,953,1069"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12,13,14,15,16,17,18,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "792,875,952,1044,1122,1218,1300,1378,1444,1510,1681,1746",
+                        "endColumns": "82,76,91,77,95,81,77,65,65,69,64,115",
+                        "endOffsets": "870,947,1039,1117,1213,1295,1373,1439,1505,1575,1741,1857"
                     }
                 }
             ]
