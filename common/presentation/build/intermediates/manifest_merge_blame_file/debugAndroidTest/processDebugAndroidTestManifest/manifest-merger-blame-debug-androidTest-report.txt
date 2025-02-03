@@ -3,24 +3,24 @@
 3    package="com.etisilattask.movies.common.presentation.test" >
 4
 5    <uses-sdk
-5-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8346989524910538094.xml:5:5-74
+5-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest2810894267165496725.xml:5:5-74
 6        android:minSdkVersion="24"
-6-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8346989524910538094.xml:5:15-41
+6-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest2810894267165496725.xml:5:15-41
 7        android:targetSdkVersion="24" />
-7-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8346989524910538094.xml:5:42-71
+7-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest2810894267165496725.xml:5:42-71
 8
 9    <instrumentation
-9-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8346989524910538094.xml:11:5-15:98
+9-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest2810894267165496725.xml:11:5-15:98
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8346989524910538094.xml:11:22-76
+10-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest2810894267165496725.xml:11:22-76
 11        android:functionalTest="false"
-11-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8346989524910538094.xml:14:22-52
+11-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest2810894267165496725.xml:14:22-52
 12        android:handleProfiling="false"
-12-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8346989524910538094.xml:13:22-53
+12-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest2810894267165496725.xml:13:22-53
 13        android:label="Tests for com.etisilattask.movies.common.presentation.test"
-13-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8346989524910538094.xml:15:22-96
+13-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest2810894267165496725.xml:15:22-96
 14        android:targetPackage="com.etisilattask.movies.common.presentation.test" />
-14-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8346989524910538094.xml:12:22-94
+14-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest2810894267165496725.xml:12:22-94
 15
 16    <permission
 16-->[androidx.core:core:1.15.0] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1d55cd75356f2c95bf5d956a8168125b/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
@@ -50,14 +50,14 @@
 27    </queries>
 28
 29    <application
-29-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8346989524910538094.xml:7:5-9:19
+29-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest2810894267165496725.xml:7:5-9:19
 30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 30-->[androidx.core:core:1.15.0] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/1d55cd75356f2c95bf5d956a8168125b/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
 31        android:debuggable="true"
 32        android:extractNativeLibs="false" >
 33        <uses-library android:name="android.test.runner" />
-33-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8346989524910538094.xml:8:9-60
-33-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8346989524910538094.xml:8:23-57
+33-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest2810894267165496725.xml:8:9-60
+33-->/Users/ahmed/Desktop/MoviesApp/common/presentation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest2810894267165496725.xml:8:23-57
 34
 35        <provider
 35-->[androidx.emoji2:emoji2:1.3.0] /Users/ahmed/Documents/New Volume/gradle-6.1.1/caches/8.9/transforms/9f3615e12ee84d1fe9a39d8e3779542e/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20

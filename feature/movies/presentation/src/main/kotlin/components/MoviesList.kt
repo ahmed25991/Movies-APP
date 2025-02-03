@@ -71,6 +71,7 @@ fun PaginatedMovieContent(
                 .distinctBy { it.id }
 
             isLoadingMore = if (allMovies.isEmpty()) LoadingType.EmptyData else LoadingType.GotData
+            viewModel.resetDisplayingMoviesState()
         }
         is CommonUiState.Fail -> {
             isLoadingMore = LoadingType.Error
@@ -79,6 +80,7 @@ fun PaginatedMovieContent(
                 (moviesUiState as CommonUiState.Fail).errorMessage,
                 android.widget.Toast.LENGTH_SHORT
             ).show()
+            viewModel.resetDisplayingMoviesState()
         }
         is CommonUiState.Loading -> {
             isLoadingMore = LoadingType.Loading

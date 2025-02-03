@@ -40,6 +40,10 @@ class MoviesViewModel @Inject constructor(
             }
         }
     }
+    fun resetDisplayingMoviesState() {
+        _moviesUiState.value = CommonUiState.Loading
+    }
+
 
 
     private val _movieDetailsUiState = MutableStateFlow<CommonUiState>(CommonUiState.Initial)
